@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Puzzle Lab </title>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<!-- <script src="js/main.js"></script> -->
+	<link rel="stylesheet" href="css/styles.css"></link>
+	<link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css"></link>
+	<script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&family=Rock+Salt&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&family=Rock+Salt&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<script>
+    $(document).ready(function() {
+      $('.nav-link').on('click', function() {
+        // Remove active class from all nav links
+        $('.nav-link').removeClass('active');
+        // Add active class to the clicked link
+        $(this).addClass('active');
+      });
+    });
+  </script>
+<body>
+	<div class="container">
+	<!-- <div class="header">
+		<h2>Puzzle Lab</h2>
+		<p>Your Pathway to Linguistics and AI Olympiads </p>
+	</div> -->
+	<!-- <nav class="navbar navbar-expand-md" aria-hidden="true">
+		<a class="navbar-brand" href="#"></a>
+	</nav>	 -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid" style="width: 100%;">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+			<a style="margin-right: 15%; margin-bottom: 0 !important;" class="navbar-brand" href="#"> <span style="font-family: Fredericka The Great; font-size: 40px;">Puzzle Lab </span>
+				<p style="margin-top: 0 !important"><span style="font-family:'Pacifico', cursive; font-size:16px;"> Your Pathway to Linguistics and <span style="font-family: Arial !important;font-weight: 700;">AI</span> Olympiads</span></p>
+				</a> 
+			
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <!-- <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#home">Home</a>
+			  </li> -->
+			  <li class="nav-item">
+				<a class="nav-link" href="#what">What</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#why">Why</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#who">Who</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#how">How</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#when">When</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#when">Where</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#faq">FAQs</a>
+			  </li>
+			</ul>
+			
+			<!-- <form class="d-flex">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+			</form> -->
+		  </div>	
+		</div>	
+		
+	  </nav>
+	  <p>  </p>
+	<!-- <div id="navbar">
+		<a href="#home">Home</a>
+		<a href="#what">What</a>
+		<a href="#who">Who</a>
+		<a href="#when">When/Where</a>
+		<a href="#how">How</a>
+		<a href="#why">Why</a>
+		<a href="#faq">FAQs</a>
+	</div>  -->
+	
+		<!-- <div style="margin-top: 110px;" class="section" id="home">
+			<p>This is a 90-minute online puzzle competition that serves as an introduction to the types of questions in the linguistics and AI olympiads. It is meant to be fun! You will receive a score, but rankings will not be released, and this will not be used for selection for any Olympiad. If you find these problems interesting and would like to register for the official Olympiad(s), you can check out the Panini Linguistics Olympiad or the [AIO Webpage]. </p>
+		</div> -->
+		<div class="section" id="what">
+			<h4>What is Puzzle Lab? </h4>
+			<ul>
+				<li>Welcome to Puzzle Lab: Where Linguistics and AI Meet! </li>
+
+				<li>This fun and interactive puzzle-solving experience is your gateway to the logical worlds of Linguistics and Artificial Intelligence (AI).</li>
+
+				<li>If you enjoy playing with words, solving logic puzzles and cracking codes then this event is made just for you! It’s the perfect way to get a sneak peek into how language and AI work  in exciting ways.  </li>
+
+				<li>This activity will set you on a path toward the national and international Linguistic Olympiads <a href="https://ltrc.iiit.ac.in/nlpmt/plo/" target="_blank">Panini Linguistics Olympiad (PLO)</a>,  <a href="https://aplo.asia/" target="_blank">Asia Pacific Linguistics Olympiad (APLO)</a>, and the <a href="https://iol2024.org/" target="_blank">International Linguistics Olympiad (IOL)</a>. The AI Olympiad from India is also joining the fun this year! This AI path will lead to <a href="https://ioai-official.org/" target="_blank">International Olympiad in Artificial Intelligence (IOAI)</a>. </li>
+
+			</ul>
+		</div><div class="section" id="why">
+			<h4>Why should you join Puzzle Lab? </h4>
+			<ul>
+				<li>
+					Fun with Learning: Enjoy solving puzzles that are both tricky and entertaining. 
+				</li>
+				<li>
+					Discover Linguistics and AI: Get hands-on experience with challenges that mix language skills, logic, and artificial intelligence.
+				</li>
+				<li>
+					Prepare for Future Olympiads: This event will introduce you to the techniques used in national and international competitions like Panini Linguistics Olympiad, APLO, and IOL, IOAI 
+				</li>
+				<li>
+					No Pressure, Just Fun: It’s all about learning and having a good time, with no pressure to compete or win. 
+				</li>
+				<li>
+					Puzzle Lab is more than just a puzzle activity—it’s your first step into the fascinating world of Linguistics and AI. We invite you to join this journey, where every puzzle is a key to unlocking new ideas and possibilities. 
+				</li>
+				<li>
+					So, are you ready to challenge your mind and have some fun? Join the Puzzle Lab and start your exploration into the amazing world of Linguistics and AI today! 
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="who">
+			<h4>Who can participate? </h4>
+			<ul>
+			<li>
+				Puzzle Lab is open to all students from 6th to 12th standard. If you've ever wondered how languages work or how computers think, this is your chance to dive into that world! 
+			</li>
+			<li> Whether you're just beginning or already love puzzles, this activity is designed to be fun and easy to join. </li>
+			<li>
+				Although this competition is intended for school students (6th-12th standard), the website is public and anyone is welcome to give it a try. 😀 
+			</li>
+			</ul>
+		</div>	
+		<div class="section" id="how">
+			<h4>How does it work? </h4>
+			<ul>
+				<li>
+					This is a 90-minute online puzzle competition that serves as an introduction to the types of questions in the linguistics and AI olympiads.
+				</li>
+
+				<li>This isn’t a competition—it’s a puzzle adventure! We don’t have leaderboards or scores. The aim is to let you enjoy solving puzzles that give you a taste of what it’s like to work with Linguistics and AI. You’ll learn the techniques and strategies that can help you in future Olympiad rounds without any pressure of ranking or competition. </li>
+			</ul>
+		</div>
+		<div class="section" id="when">
+			<h4>When and Where is it happening? </h4>
+			<ul>
+				<li>
+					The Puzzle Lab will be held online, so you can participate from anywhere! It’s set to go live on [date XXX] on our dedicated webpage. 
+				</li>
+				<li>
+					You’ll have the flexibility to solve these puzzles at your own pace—no rush, just fun!
+				</li>
+			</ul>
+			 </p>
+		</div>
+		<!-- <div class="section" id="where">
+			<h4>Where is it happening? </h4>
+			<p>
+				The Puzzle Lab will be held online, so you can participate from anywhere! It’s set to go live on [date XXX] on our dedicated webpage. You’ll have the flexibility to solve these puzzles at your own pace—no rush, just fun!
+			 </p>
+		</div> -->
+		<div class="section" id="faq">
+			<h4> Frequently Asked Questions</h4>
+			<ol>
+				<li>
+					Is there a registration fee to participate in Puzzle Lab?
+					<ul>
+						<li>
+							No, participation in Puzzle Lab is completely free! However, there is a nominal registration fee if you choose to register for the Panini Linguistics Olympiad (PLO).
+						</li>
+					</ul>
+				</li>
+				<li>
+					How does the Puzzle Lab compare to the PLO set of problems?
+					<ul>
+						<li>
+							The Puzzle Lab is designed to be easier and more accessible, with a focus on introducing you to the types of questions you might encounter in the PLO.
+						</li>
+						<li>
+							Unlike the PLO, which has a higher difficulty level and is not conducted online, the Puzzle Lab is a fun, online experience with flexible timing.
+						</li>
+					</ul>
+				</li>
+				<li>
+					How many problems should I expect?
+					<ul>
+						<li>
+						</li>
+					</ul>
+				</li>
+				
+				<li>
+					What is the selection process for the Panini Linguistics Olympiad (PLO)?
+					<ul>
+						<li>
+							For detailed information about the selection process for the PLO, please refer to the official PLO [selection process page](link to page).
+						</li>
+					</ul>
+				</li>
+				<li>
+					Are the Panini Linguistics Olympiad (PLO) and AI Olympiad (AIO) the same competition?
+					<ul>
+						<li>
+							No, they are two separate Olympiads with different problem styles and focuses. 
+						</li>
+						<li>
+							PLO is centered around linguistics, while AIO focuses on artificial intelligence challenges.  
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
