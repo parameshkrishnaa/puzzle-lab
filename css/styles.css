@@ -53,7 +53,7 @@ h4 + ul li, h4 + ol li {
 	border-bottom: 3px solid #007bff; 
 	/* border-bottom: 4px dashed #28a745; */
 	border-image: linear-gradient(90deg, #ff7e5f, #dfdcda) 1; 
-	height: 100px;
+	/* height: 90px; */
 	background:
 	linear-gradient(150deg, #063518, transparent 30%),
 	linear-gradient(330deg, rgb(10, 61, 36), transparent 30%),
@@ -63,12 +63,12 @@ body {
 	margin-top: 4% !important;
 }
 .section {
-	margin: 2%;
+	margin: 3%;
 	padding: 2%;
 	background-color: #ffffffef;
 	border-radius: 2% ;
 	font-size: 1.5 em;
-	scroll-margin-top: 100px;
+	scroll-margin-top: 120px;
 }
 li.nav-item > a.nav-link {
 	font-size: 25px;
